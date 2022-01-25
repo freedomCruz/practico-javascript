@@ -1,0 +1,1 @@
+var edad = prompt('Ingrese su edad: ');
