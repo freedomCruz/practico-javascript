@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,48 @@
     <title>Figuras Geométricas | Curso Práctico de Javascript</title>
 </head>
 <body>
-    <h1>Figuras Geométricas 5</h1>
+    <header>
+        <h1 class="title">Figuras Geométricas</h1>
+
+        <p>Este es el primer taller del curso práctico de javascript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el perímetro de un cuadrado</h2>
+        <div>
+            <form action="/">
+                <label for="InputCuadrado">Escribe cuanto mide el lado de tu cuadrado</label>
+                <input id="InputCuadrado"  type="number">
+                <button onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                <button onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button>
+            </form>
+            <p>
+                El perímetro del Cuadrado es: 
+            </p>
+        </div>
+        <div>
+            <form action="/">
+                <label for="InputLadoa">Lado A</label>
+                <input id="InputLadoa"  type="number">
+
+                <label for="InputLadob">Lado B</label>
+                <input id="InputLadob"  type="number">
+                
+                <label for="InputBase">Base</label>
+                <input id="InputBase"  type="number">
+                <button onclick="calcularPerimetroTriangulo()">
+                    Calcular el perímetro
+                </button>
+                <button onclick="calcularAreaTriangulo()">
+                    Calcular el área
+                </button>
+            </form>
+        </div>
+    </section>
     
     <script src="./figura.js"></script>
 </body>
